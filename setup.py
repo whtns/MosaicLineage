@@ -16,4 +16,7 @@ setup(
     description="A collection of functions designed to analyze lineage tracing data from different systems",
     long_description=Path("README.md").read_text("utf-8"),
     license="BSD",
+    install_requires=[
+        "toolz",
+    ],
 )
